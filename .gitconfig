@@ -7,3 +7,5 @@
 	excludesfile = ~/.global_gitignore
 [credential]
 	helper = cache
+[alias]
+	happify = !sh -c \"ln -s /Users/mateus/git/git-celebration-sounds.git/hooks/post-{commit,update} .git/hooks\"
