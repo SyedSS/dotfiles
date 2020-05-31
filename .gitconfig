@@ -9,3 +9,5 @@
 	helper = cache
 [alias]
 	happify = !sh -c \"ln -s /Users/mateus/git/git-celebration-sounds.git/hooks/post-{commit,update} .git/hooks\"
+[commit]
+	template = /Users/mateus/.gitmessage.txt
